@@ -37,3 +37,16 @@ li{
     font-size: larger;
     font-weight: bolder;
 }
+button{
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    outline: white;
+    text-transform: none;
+    background-color: #333;
+    color: white;
+}
+a{
+    text-transform: none;
+    text-decoration: none;
+}

@@ -9,7 +9,7 @@ import { Music } from './components/Music';
 function App() {
   return (
     <div className="App">
-      <h1>music</h1>
+      <h1>music:</h1>
       <Navbar/>
       <Switch>
       <Route exact path="/"><Home/></Route>

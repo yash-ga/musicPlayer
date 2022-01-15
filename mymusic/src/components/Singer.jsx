@@ -14,7 +14,7 @@ export const Singer=({image,name})=>{
                 <img className="singer-image" src={image} alt="#" />
             </div>
             <div>
-                <button onClick={()=>window.scrollTo(0, 0)}>get playlist</button>
+                <button onClick={()=>window.scrollTo(0, 0)}>^</button>
                 
                 <button > <a href="http://localhost:3000/login">{name}</a></button>
                 
