@@ -23,9 +23,9 @@ export const Home=()=>{
                         <div>
 
                             <div className="artist" key={ind}>{e.artist}</div>
-                            <div className="song">{e.song.map((s)=>{
+                            <div className="song">{e.song.map((s,i)=>{
                                 return(
-                                    <div>{s.title}</div>
+                                    <div key={i}>{s.title}</div>
                                 )
                             })}</div>
                         </div>
