@@ -16,7 +16,7 @@ export const Home = () => {
   }, []);
   return (
     <div>
-      <h1>this is home page</h1>
+      <h1>Get Music For Free By Your Fav Singers</h1>
 
       {arr.map((e, ind) => {
         return (
