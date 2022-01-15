@@ -10,6 +10,9 @@ export const Navbar = () => {
       <h1>
         <Link to="/login">login</Link>
       </h1>
+      <h1>
+        <Link to="/music">Music</Link>
+      </h1>
     </div>
   );
 };
