@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Artist } from "./Artist.card"
 
 export const Home=()=>{
     const [arr,setarr]=useState([])
@@ -22,7 +23,9 @@ export const Home=()=>{
                     return(
                         <div>
 
-                            <div className="artist" key={ind}>{e.artist}</div>
+                            <div className="artist" key={ind}>
+                            <Artist name={e.artist} image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Amazon_Music_logo.svg/300px-Amazon_Music_logo.svg.png"/>
+                            </div>
                             <div className="song">{e.song.map((s,i)=>{
                                 return(
                                     <div key={i}>{s.title}</div>
