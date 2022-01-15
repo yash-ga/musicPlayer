@@ -12,22 +12,29 @@
 input{
   margin-top: 25px;
   height: 20px;
+  border-radius: 5px;
+  outline: none;
+
 }
-.artist{
+/* .artist{
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
   background-color: purple;
-}
-.song{
+} */
+/* .song{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   background-color: red;
-}
-.artist-card{
-  width: 300px;
+} */
+.artist{
+  width: 50%;
   height: 500px;
   background-color: skyblue;
   border-radius: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-color: black;
+  /* grid-template-rows: auto auto auto auto; */
 }
