@@ -12,3 +12,15 @@
     background-color: burlywood;
 
 }
+.singer{
+    height: 500px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 20px;
+    margin-left: 200px;
+     margin-top: 50px ;
+}
+.singer-image{
+    width: 300px;
+    height: 250px;
+}
